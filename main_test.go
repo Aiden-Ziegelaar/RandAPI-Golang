@@ -51,7 +51,7 @@ func loadClientTLSCredentials() (credentials.TransportCredentials, error) {
 	return credentials.NewTLS(config), nil
 }
 
-func connectMain() grpcService.RandAPIClient  {
+func connectMain() grpcService.RandAPIClient {
 	tlsCredentials, err := loadClientTLSCredentials()
 	if err != nil {
 		log.Fatal("cannot load TLS credentials: ", err)
@@ -65,7 +65,7 @@ func connectMain() grpcService.RandAPIClient  {
 	return grpcService.NewRandAPIClient(cc1)
 }
 
-func MainConnectionT (t *testing.T) {
+func MainConnectionT(t *testing.T) {
 
 	tlsCredentials, err := loadClientTLSCredentials()
 	if err != nil {
@@ -81,7 +81,7 @@ func MainConnectionT (t *testing.T) {
 	}
 }
 
-func MainReqBoolT (t *testing.T) {
+func MainReqBoolT(t *testing.T) {
 	client := connectMain()
 
 	req := empty.Empty{}
@@ -93,7 +93,46 @@ func MainReqBoolT (t *testing.T) {
 	}
 }
 
-func MainReqBoolLoadT (t *testing.T) {
+func MainReqWeightedBoolT(t *testing.T) {
+	client := connectMain()
+
+	req := grpcService.WeightedBooleanRequest{
+		FalseWeight: 9,
+		TrueWeight:  1,
+	}
+
+	var _, err = client.WeightedBoolean(context.Background(), &req)
+
+	if err != nil {
+		t.Errorf("Error calling Boolean: %s", err)
+	}
+}
+
+func MainReqIntT(t *testing.T) {
+	client := connectMain()
+
+	req := empty.Empty{}
+
+	var _, err = client.Integer(context.Background(), &req)
+
+	if err != nil {
+		t.Errorf("Error calling Boolean: %s", err)
+	}
+}
+
+func MainReqIntNT(t *testing.T) {
+	client := connectMain()
+
+	req := grpcService.IntegerRequest{Max: 10}
+
+	var _, err = client.IntegerN(context.Background(), &req)
+
+	if err != nil {
+		t.Errorf("Error calling Boolean: %s", err)
+	}
+}
+
+func MainReqBoolLoadT(t *testing.T) {
 	client := connectMain()
 
 	req := empty.Empty{}
@@ -110,7 +149,7 @@ func MainReqBoolLoadT (t *testing.T) {
 		}
 	}
 	result := float64(a) / float64(a+b)
-	if !(0.49 <  result && result < 0.51) {
+	if !(0.48 < result && result < 0.52) {
 		t.Errorf("Expected bias to be in range 0.49-0.51, got %f", result)
 	}
 }
@@ -119,5 +158,8 @@ func TestMainFunction(t *testing.T) {
 	go main()
 	t.Run("Connect", MainConnectionT)
 	t.Run("RequestBoolean", MainReqBoolT)
+	t.Run("RequestInteger", MainReqIntT)
+	t.Run("RequestWeightedBoolean", MainReqWeightedBoolT)
+	t.Run("RequestIntegerN", MainReqIntNT)
 	t.Run("RequestBooleanLoad", MainReqBoolLoadT)
 }
