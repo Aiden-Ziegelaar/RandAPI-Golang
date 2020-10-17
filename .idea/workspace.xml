@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0857375-595a-491b-8a5a-d502a340e1b6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1irhwBrif3y4VIlCFSO0IoAjbGP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/x509" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI\x509" />
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI\proto\grpcService" />
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI" />
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI\proto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI\x509" />
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI\generators" />
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI" />
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI\proto\service" />
+      <recent name="C:\Users\Aiden Ziegelaar\go\src\randAPI\proto\dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.go test randAPI">
+    <configuration name="go build randAPI" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="randAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/../randAPI|$PROJECT_DIR$/main.go" />
+      <package value="randAPI" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test randAPI" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+      <module name="randAPI" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="randAPI" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build randAPI" />
+      <item itemvalue="Go Test.go test randAPI" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0857375-595a-491b-8a5a-d502a340e1b6" name="Default Changelist" comment="" />
+      <created>1602671854708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602671854708</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="529" y="358" key="#Go_Modules" timestamp="1602673121010">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="529" y="358" key="#Go_Modules/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602673121010" />
+    <state x="175" y="150" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602928611661">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="175" y="150" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602928611661" />
+    <state x="707" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602935806039">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="707" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602935806039" />
+    <state x="588" y="257" width="619" height="539" key="EnvironmentVariablesDialog" timestamp="1602919528344">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="588" y="257" width="619" height="539" key="EnvironmentVariablesDialog/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602919528344" />
+    <state x="259" y="283" key="FileChooserDialogImpl" timestamp="1602928594103">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="259" y="283" key="FileChooserDialogImpl/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602928594103" />
+    <state width="1427" height="386" key="GridCell.Tab.0.bottom" timestamp="1602941909035">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1427" height="386" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602941909035" />
+    <state width="1427" height="386" key="GridCell.Tab.0.center" timestamp="1602941909034">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1427" height="386" key="GridCell.Tab.0.center/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602941909034" />
+    <state width="1427" height="386" key="GridCell.Tab.0.left" timestamp="1602941909034">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1427" height="386" key="GridCell.Tab.0.left/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602941909034" />
+    <state width="1427" height="386" key="GridCell.Tab.0.right" timestamp="1602941909035">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1427" height="386" key="GridCell.Tab.0.right/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602941909035" />
+    <state x="0" y="173" key="SettingsEditor" timestamp="1602673020196">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="173" key="SettingsEditor/0.0.1920.1050/-1080.-854.1080.1890@0.0.1920.1050" timestamp="1602673020196" />
+  </component>
+</project>
